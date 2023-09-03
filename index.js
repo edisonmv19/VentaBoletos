@@ -22,10 +22,10 @@ app.listen(port, () => {
 
 
 const connection = mysql.createConnection({
-    host: 'co28d739i4m2sb7j.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
-    user: 'e963a83clyccqh0v',
-    password: 'st07xqizfbx9im3w',
-    database: 'z6wrslrjiid18wo6'
+    host: 'hostname',
+    user: 'user',
+    password: 'pass',
+    database: 'database'
   });
   
   connection.connect((error) => {
